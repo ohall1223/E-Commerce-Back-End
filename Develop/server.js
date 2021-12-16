@@ -1,5 +1,6 @@
 const express = require('express');
 const routes = require('./routes');
+const mysel = require('mysql2')
 // import sequelize connection
 
 const app = express();

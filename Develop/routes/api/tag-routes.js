@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
   .then(tagData => res.json(tagData))
   .catch(err => {
     console.log(err);
-    res.statys(500).json(err);
+    res.status(500).json(err);
   });
 });
 
